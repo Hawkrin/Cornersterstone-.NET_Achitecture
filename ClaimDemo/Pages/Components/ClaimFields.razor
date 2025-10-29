@@ -1,0 +1,131 @@
+﻿@using ClaimDemo.Domain.Enums.Extensions
+@using ClaimDemo.Domain.Models
+@using ClaimDemo.Domain.Enums
+@using Resources
+
+@typeparam TClaim where TClaim : Claim
+
+@if (Claim is VehicleClaim vehicleClaim)
+{
+    @if (IsEditMode)
+    {
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.VehicleRegistrationLabel_SE</label>
+            <InputText @bind-Value="vehicleClaim.RegistrationNumber" class="form-control" />
+            <ValidationMessage For="@(() => vehicleClaim.RegistrationNumber)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.PlaceOfAccidentLabel_SE</label>
+            <InputText @bind-Value="vehicleClaim.PlaceOfAccident" class="form-control" />
+            <ValidationMessage For="@(() => vehicleClaim.PlaceOfAccident)" />
+        </div>
+    }
+    else
+    {
+        <p><b>@ResourceStrings.VehicleRegistrationLabel_SE</b> @vehicleClaim.RegistrationNumber</p>
+        <p><b>@ResourceStrings.PlaceOfAccidentLabel_SE</b> @vehicleClaim.PlaceOfAccident</p>
+    }
+}
+else if (Claim is PropertyClaim propertyClaim)
+{
+    @if (IsEditMode)
+    {
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.PropertyAddressLabel_SE</label>
+            <InputText @bind-Value="propertyClaim.Address" class="form-control" />
+            <ValidationMessage For="@(() => propertyClaim.Address)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.PropertyDamageTypeLabel_SE</label>
+            <select @bind="propertyClaim.PropertyDamageType" class="form-select">
+                @foreach (PropertyDamageType damageType in Enum.GetValues(typeof(PropertyDamageType)))
+                {
+                    <option value="@damageType">@damageType.GetDisplayName()</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.Estimated_Cost_SE</label>
+            <InputNumber @bind-Value="propertyClaim.EstimatedDamageCost" class="form-control" />
+            <ValidationMessage For="@(() => propertyClaim.EstimatedDamageCost)" />
+        </div>
+    }
+    else
+    {
+        <p><b>@ResourceStrings.PropertyAddressLabel_SE</b> @propertyClaim.Address</p>
+        <p><b>@ResourceStrings.PropertyDamageTypeLabel_SE</b> @propertyClaim.PropertyDamageType</p>
+        <p><b>@ResourceStrings.Estimated_Cost_SE</b> @propertyClaim.EstimatedDamageCost</p>
+    }
+}
+else if (Claim is TravelClaim travelClaim)
+{
+    @if (IsEditMode)
+    {
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.CountryLabel_SE</label>
+            <select @bind="travelClaim.Country" class="form-select">
+                @foreach (Country country in Enum.GetValues(typeof(Country)))
+                {
+                    <option value="@country">@country.GetDisplayName()</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.StartDateLabel_SE</label>
+            <InputDate @bind-Value="travelClaim.StartDate" class="form-control" />
+            <ValidationMessage For="@(() => travelClaim.StartDate)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.EndDateLabel_SE</label>
+            <InputDate @bind-Value="travelClaim.EndDate" class="form-control" />
+            <ValidationMessage For="@(() => travelClaim.EndDate)" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@ResourceStrings.IncidentTypeLabel_SE</label>
+            <select @bind="travelClaim.IncidentType" class="form-select">
+                @foreach (IncidentType incident in Enum.GetValues(typeof(IncidentType)))
+                {
+                    <option value="@incident">@incident.GetDisplayName()</option>
+                }
+            </select>
+        </div>
+    }
+    else
+    {
+        <p><b>@ResourceStrings.CountryLabel_SE</b> @travelClaim.Country</p>
+        <p><b>@ResourceStrings.StartDateLabel_SE</b> @travelClaim.StartDate.ToShortDateString()</p>
+        <p><b>@ResourceStrings.EndDateLabel_SE</b> @travelClaim.EndDate.ToShortDateString()</p>
+        <p><b>@ResourceStrings.IncidentTypeLabel_SE</b> @travelClaim.IncidentType</p>
+    }
+}
+
+@if (IsEditMode)
+{
+    <div class="mb-3">
+        <label class="form-label">@ResourceStrings.DescriptionLabel_SE</label>
+        <InputTextArea @bind-Value="Claim.Description" class="form-control" rows="3" />
+         <ValidationMessage For="@(() => Claim.Description)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">@ResourceStrings.ReportedDateLabel_SE</label>
+        <InputDate @bind-Value="Claim.ReportedDate" class="form-control" disabled="@DisableReportedDate" />
+         <ValidationMessage For="@(() => Claim.ReportedDate)" />
+    </div>
+}
+else
+{
+    <p><b>@ResourceStrings.DescriptionLabel_SE</b> @Claim.Description</p>
+    <p><b>@ResourceStrings.ReportedDateLabel_SE</b> @Claim.ReportedDate.ToShortDateString()</p>
+}
+
+@code {
+
+    [Parameter] 
+    public TClaim Claim { get; set; } = default!;
+
+    [Parameter] 
+    public bool IsEditMode { get; set; }
+
+    [Parameter]
+    public bool DisableReportedDate { get; set; } = false;
+}

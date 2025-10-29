@@ -1,0 +1,14 @@
+﻿@using ClaimDemo.Domain.Enums.Extensions
+@using ClaimDemo.Domain.Models
+
+@foreach (var cs in Claim.Statuses.GetActiveStatuses())
+{
+    <StatusBox Status="@cs.GetDisplayName()" />
+}
+
+
+@code 
+{
+    [Parameter]
+    public Claim Claim { get; set; } = null!;
+}

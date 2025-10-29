@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="accessmodifier">
+		<value>Public</value>
+	</resheader>
+	<data name="CreateClaim_SE" xml:space="preserve">
+	  <value>Skapa skadeanmälan</value>
+	</data>
+	<data name="CreatedClaim_SuccessMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan har skickats!</value>
+	</data>
+	<data name="UpdatedClaim_SuccessMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan har uppdaterats!</value>
+	</data>
+	<data name="DeleteClaim_SuccessMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan är borttagen!</value>
+	</data>
+	<data name="ErrorMessage_SE" xml:space="preserve">
+	  <value>Ett fel uppstod: {0}</value>
+	</data>
+	<data name="ClaimTypeLabel_SE" xml:space="preserve">
+	  <value>Typ av skada:</value>
+	</data>
+	<data name="VehicleRegistrationLabel_SE" xml:space="preserve">
+	  <value>Registreringsnummer:</value>
+	</data>
+	<data name="PlaceOfAccidentLabel_SE" xml:space="preserve">
+	  <value>Olycksplats:</value>
+	</data>
+	<data name="PropertyAddressLabel_SE" xml:space="preserve">
+	  <value>Adress:</value>
+	</data>
+	<data name="PropertyDamageTypeLabel_SE" xml:space="preserve">
+	  <value>Typ av egendomsskada</value>
+	</data>
+	<data name="CountryLabel_SE" xml:space="preserve">
+	  <value>Land:</value>
+	</data>
+	<data name="StartDateLabel_SE" xml:space="preserve">
+	  <value>Startdatum:</value>
+	</data>
+	<data name="EndDateLabel_SE" xml:space="preserve">
+	  <value>Slutdatum:</value>
+	</data>
+	<data name="IncidentTypeLabel_SE" xml:space="preserve">
+	  <value>Typ av incident:</value>
+	</data>
+	<data name="DescriptionLabel_SE" xml:space="preserve">
+	  <value>Beskrivning:</value>
+	</data>
+	<data name="ReportedDateLabel_SE" xml:space="preserve">
+	  <value>Skadetillfälle:</value>
+	</data>
+	<data name="SelectTypeOption_SE" xml:space="preserve">
+	  <value>-- Välj typ --</value>
+	</data>
+	<data name="SelectDamageTypeOption_SE" xml:space="preserve">
+	  <value>-- Välj typ --</value>
+	</data>
+	<data name="SelectCountryOption_SE" xml:space="preserve">
+	  <value>-- Välj land --</value>
+	</data>
+	<data name="SelectIncidentTypeOption_SE" xml:space="preserve">
+	  <value>-- Välj typ --</value>
+	</data>
+
+	<!-- ClaimType -->
+	<data name="ClaimType_Vehicle_SE" xml:space="preserve">
+		<value>Fordon</value>
+	</data>
+	<data name="ClaimType_Property_SE" xml:space="preserve">
+		<value>Egendom</value>
+	</data>
+	<data name="ClaimType_Travel_SE" xml:space="preserve">
+		<value>Resa</value>
+	</data>
+	<data name="ClaimType_None_SE" xml:space="preserve">
+		<value>Ingen</value>
+	</data>
+
+	<!-- PropertyDamageType -->
+	<data name="PropertyDamageType_Fire_SE" xml:space="preserve">
+	  <value>Eld</value>
+	</data>
+	<data name="PropertyDamageType_Water_SE" xml:space="preserve">
+	  <value>Vatten</value>
+	</data>
+	<data name="PropertyDamageType_Theft_SE" xml:space="preserve">
+	  <value>Stöld</value>
+	</data>
+
+	<!-- IncidentType -->
+	<data name="IncidentType_Medical_SE" xml:space="preserve">
+	  <value>Medicinsk</value>
+	</data>
+	<data name="IncidentType_Theft_SE" xml:space="preserve">
+	  <value>Stöld</value>
+	</data>
+	<data name="IncidentType_Accident_SE" xml:space="preserve">
+	  <value>Olycka</value>
+	</data>
+	<data name="IncidentType_Cancellation_SE" xml:space="preserve">
+	  <value>Avbokning</value>
+	</data>
+	<data name="IncidentType_Delay_SE" xml:space="preserve">
+	  <value>Försening</value>
+	</data>
+	<data name="IncidentType_LostLuggage_SE" xml:space="preserve">
+	  <value>Förlorat bagage</value>
+	</data>
+	<data name="IncidentType_Other_SE" xml:space="preserve">
+	  <value>Annat</value>
+	</data>
+
+	<data name="ClaimList_Title_SE" xml:space="preserve">
+    <value>Skador</value>
+  </data>
+	<data name="ClaimList_Loading_SE" xml:space="preserve">
+    <value>Laddar...</value>
+  </data>
+	<data name="ClaimList_NoClaims_SE" xml:space="preserve">
+    <value>Inga skador hittades.</value>
+  </data>
+	<data name="ClaimList_Type_SE" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+	<data name="ClaimList_ReportedDate_SE" xml:space="preserve">
+    <value>Anmälningsdatum</value>
+  </data>
+	<data name="ClaimList_Actions_SE" xml:space="preserve">
+    <value>Detaljer</value>
+  </data>
+	<data name="ClaimList_ID_SE" xml:space="preserve">
+    <value>Id</value>
+  </data>
+	<data name="ClaimList_ShowDetails_SE" xml:space="preserve">
+    <value>Visa detaljer</value>
+  </data>
+	<data name="ClaimList_HideDetails_SE" xml:space="preserve">
+    <value>Dölj detaljer</value>
+  </data>
+	<data name="ClaimList_RegistrationNumber_SE" xml:space="preserve">
+    <value>Registreringsnummer:</value>
+  </data>
+	<data name="ClaimList_Address_SE" xml:space="preserve">
+    <value>Adress:</value>
+  </data>
+	<data name="ClaimList_DamageType_SE" xml:space="preserve">
+    <value>Skadetyp:</value>
+  </data>
+	<data name="ClaimList_Country_SE" xml:space="preserve">
+    <value>Land:</value>
+  </data>
+	<data name="ClaimList_StartDate_SE" xml:space="preserve">
+    <value>Startdatum:</value>
+  </data>
+	<data name="ClaimList_EndDate_SE" xml:space="preserve">
+    <value>Slutdatum:</value>
+  </data>
+	<data name="ClaimList_IncidentType_SE" xml:space="preserve">
+    <value>Händelsetyp:</value>
+  </data>
+	<data name="ClaimList_Description_SE" xml:space="preserve">
+    <value>Beskrivning:</value>
+  </data>
+	<data name="Estimated_Cost_SE" xml:space="preserve">
+    <value>Uppskattad kostnad: </value>
+  </data>
+	<data name="ClaimList_FilterType_SE" xml:space="preserve">
+    <value>Filtrera på typ</value>
+  </data>
+	<data name="ClaimList_AllTypes_SE" xml:space="preserve">
+    <value>Alla typer</value>
+  </data>
+	<data name="ClaimList_FilterDateFrom_SE" xml:space="preserve">
+    <value>Från datum</value>
+  </data>
+	<data name="ClaimList_FilterDateTo_SE" xml:space="preserve">
+    <value>Till datum</value>
+  </data>
+	<data name="ClaimList_FilterButton_SE" xml:space="preserve">
+    <value>Filtrera</value>
+  </data>
+	<data name="ClaimList_ResetButton_SE" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+	<data name="ClaimList_SortBy_SE" xml:space="preserve">
+    <value>Sortera efter</value>
+  </data>
+	<data name="ClaimList_SortAsc_SE" xml:space="preserve">
+    <value>Stigande</value>
+  </data>
+	<data name="ClaimList_SortDesc_SE" xml:space="preserve">
+		<value>Fallande</value>
+	</data>
+	<data name="ClaimList_GoBack_SE" xml:space="preserve">
+		<value>Tillbaka till listan</value>
+	</data>
+	<data name="ClaimStatus_None_SE" xml:space="preserve">
+		<value>Ingen</value>
+	</data>
+	<data name="ClaimStatus_RequiresManualReview_SE" xml:space="preserve">
+		<value>Kräver manuell granskning</value>
+	</data>
+	<data name="ClaimStatus_Escalated_SE" xml:space="preserve">
+		<value>Eskalerad</value>
+	</data>
+	<data name="ClaimStatus_FraudCheck_SE" xml:space="preserve">
+		<value>Bedrägerikontroll</value>
+	</data>
+	<data name="ConfirmDialog_Title_SE" xml:space="preserve">
+	  <value>Bekräfta borttagning</value>
+	</data>
+		<data name="ConfirmDialog_Message_SE" xml:space="preserve">
+	  <value>Är du säker på att du vill ta bort denna skadeanmälan?</value>
+	</data>
+		<data name="ConfirmDialog_ConfirmButton_SE" xml:space="preserve">
+	  <value>Ta bort</value>
+	</data>
+		<data name="ConfirmDialog_CancelButton_SE" xml:space="preserve">
+	  <value>Avbryt</value>
+	</data>
+	<data name="ClaimDetail_UpdateButton_SE" xml:space="preserve">
+	  <value>Uppdatera</value>
+	</data>
+		<data name="ClaimDetail_EditButton_SE" xml:space="preserve">
+	  <value>Redigera</value>
+	</data>
+</root>

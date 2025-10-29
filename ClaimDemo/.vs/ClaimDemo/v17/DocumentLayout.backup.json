@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KOD\\LFTest\\ClaimDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:pages\\claimlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\createclaim.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:pages\\createclaim.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\enums\\propertydamagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\enums\\propertydamagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\enums\\incidenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\enums\\incidenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\enums\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\enums\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\enums\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\enums\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\enums\\claimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\enums\\claimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\resources\\resourcestrings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:resources\\resourcestrings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\resources\\countries.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:resources\\countries.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\resources\\resourcestrings.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:resources\\resourcestrings.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\domain\\models\\travelclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D3942E-2A63-38C6-1CCF-AE9DBB0F579C}|ClaimDemo.csproj|solutionrelative:domain\\models\\travelclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1633185463:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T07:49:16.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T07:49:00.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimList.razor",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor",
+              "RelativeDocumentMoniker": "Pages\\ClaimList.razor",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor",
+              "RelativeToolTip": "Pages\\ClaimList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T07:48:28.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResourceStrings.designer.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ResourceStrings.designer.cs",
+              "RelativeDocumentMoniker": "Resources\\ResourceStrings.designer.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ResourceStrings.designer.cs",
+              "RelativeToolTip": "Resources\\ResourceStrings.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T06:35:12.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Countries.resx",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\Countries.resx",
+              "RelativeDocumentMoniker": "Resources\\Countries.resx",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\Countries.resx",
+              "RelativeToolTip": "Resources\\Countries.resx",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAnwIQCAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-23T07:03:57.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\EnumExtensions.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\EnumExtensions.cs",
+              "RelativeToolTip": "Domain\\Enums\\EnumExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:44:27.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IncidentType.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\IncidentType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\IncidentType.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\IncidentType.cs",
+              "RelativeToolTip": "Domain\\Enums\\IncidentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:46:06.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateClaim.razor",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor",
+              "RelativeDocumentMoniker": "Pages\\CreateClaim.razor",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor",
+              "RelativeToolTip": "Pages\\CreateClaim.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T12:17:14.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\Country.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\Country.cs",
+              "RelativeToolTip": "Domain\\Enums\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:41:21.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:20:06.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimType.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\ClaimType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\ClaimType.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\ClaimType.cs",
+              "RelativeToolTip": "Domain\\Enums\\ClaimType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:20:57.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PropertyDamageType.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\PropertyDamageType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\PropertyDamageType.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\PropertyDamageType.cs",
+              "RelativeToolTip": "Domain\\Enums\\PropertyDamageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:47:38.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Claim.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\Claim.cs",
+              "RelativeToolTip": "Domain\\Models\\Claim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:44:14.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResourceStrings.resx",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ResourceStrings.resx",
+              "RelativeDocumentMoniker": "Resources\\ResourceStrings.resx",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ResourceStrings.resx",
+              "RelativeToolTip": "Resources\\ResourceStrings.resx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-22T13:18:54.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TravelClaim.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\TravelClaim.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\TravelClaim.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\TravelClaim.cs",
+              "RelativeToolTip": "Domain\\Models\\TravelClaim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:20:53.847Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1037,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:421934398:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 434,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ecb7191a-597b-41f5-9843-03a4cf275dde}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{605322a2-17ae-43f4-b60f-766556e46c87}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+﻿@page "/claims/claimsList"
+
+@using ClaimDemo.Application.Interfaces
+@using ClaimDemo.Domain.Enums
+@using ClaimDemo.Domain.Enums.Extensions
+@using ClaimDemo.Domain.Models
+@using ClaimDemo.Pages.Components
+@using Resources
+
+<h3>@ResourceStrings.ClaimList_Title_SE</h3>
+
+<div class="mb-3 row">
+    <div class="col-md-3">
+        <label>@ResourceStrings.ClaimList_FilterType_SE</label>
+        <select class="form-select" @bind="selectedType">
+            <option value="">@ResourceStrings.ClaimList_AllTypes_SE</option>
+            @foreach (ClaimType type in Enum.GetValues(typeof(ClaimType)))
+            {
+                <option value="@type">@type.GetDisplayName()</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label>@ResourceStrings.ClaimList_FilterDateFrom_SE</label>
+        <InputDate @bind-Value="filterDateFrom" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label>@ResourceStrings.ClaimList_FilterDateTo_SE</label>
+        <InputDate @bind-Value="filterDateTo" class="form-control" />
+    </div>
+    <div class="col-md-3 d-flex align-items-end">
+        <button class="btn btn-primary me-2" @onclick="ApplyFilter">@ResourceStrings.ClaimList_FilterButton_SE</button>
+        <button class="btn btn-secondary" @onclick="ResetFilter">@ResourceStrings.ClaimList_ResetButton_SE</button>
+    </div>
+</div>
+
+<div class="mb-2">
+    <label>@ResourceStrings.ClaimList_SortBy_SE</label>
+    <select class="form-select d-inline w-auto" @bind="sortBy">
+        <option value="date">@ResourceStrings.ClaimList_ReportedDate_SE</option>
+        <option value="type">@ResourceStrings.ClaimList_Type_SE</option>
+    </select>
+    <button class="btn btn-link" @onclick="ToggleSortOrder">
+        @(sortDescending? @ResourceStrings.ClaimList_SortDesc_SE: @ResourceStrings.ClaimList_SortAsc_SE)
+    </button>
+</div>
+
+@if (filteredClaims == null)
+{
+    <p>@ResourceStrings.ClaimList_Loading_SE</p>
+}
+else if (!filteredClaims.Any())
+{
+    <p>@ResourceStrings.ClaimList_NoClaims_SE</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="width: 270px;">@ResourceStrings.ClaimList_ID_SE</th>
+                <th style="width: 270px;">@ResourceStrings.ClaimList_Type_SE</th>
+                <th style="width: 270px;">@ResourceStrings.ClaimList_ReportedDate_SE</th>
+                <th style="width: 270px;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in filteredClaims)
+            {
+                <tr @onclick="() => GoToDetail(claim.Id)" style="cursor:pointer">
+                    <td>@claim.Id</td>
+                    <td>@claim.Type.GetDisplayName()</td>
+                    <td>@claim.ReportedDate.ToShortDateString()</td>
+                    <td>
+                        <ActiveStatuses Claim="claim" />
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}

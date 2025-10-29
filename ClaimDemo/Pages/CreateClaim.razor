@@ -1,0 +1,30 @@
+@page "/claims/create"
+
+@using ClaimDemo.Domain.Enums
+@using ClaimDemo.Domain.Enums.Extensions
+@using ClaimDemo.Pages.Components
+@using ClaimDemo.Resources
+
+<h3>@ResourceStrings.CreateClaim_SE</h3>
+
+<div class="mb-3">
+    <label class="form-label">@ResourceStrings.ClaimTypeLabel_SE</label>
+    <select @bind="selectedType" @bind:after="OnClaimTypeChanged" class="form-select">
+        <option value="">@ResourceStrings.SelectTypeOption_SE</option>
+        @foreach (ClaimType type in Enum.GetValues(typeof(ClaimType)))
+        {
+            <option value="@type">@type.GetDisplayName()</option>
+        }
+    </select>
+</div>
+
+@if (claim != null)
+{
+    <EditForm Model="claim" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+
+        <ClaimFields Claim="claim" IsEditMode="true" />
+
+        <button type="submit" class="btn btn-primary">@ResourceStrings.CreateClaim_SE</button>
+    </EditForm>
+}

@@ -1,0 +1,56 @@
+﻿@page "/claimdetail/{id:guid}"
+
+@using ClaimDemo.Domain.Enums.Extensions
+@using ClaimDemo.Pages.Components
+@using ClaimDemo.Resources
+
+@if (claim == null)
+{
+    <p>@ResourceStrings.ClaimList_Loading_SE</p>
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            <h4>@ResourceStrings.ClaimList_Type_SE: @claim.Type.GetDisplayName()</h4>
+        </div>
+        <div class="card-body">
+            @if (!isEditMode)
+            {
+                <ClaimFields Claim="claim" IsEditMode="false" />
+                <p>
+                    <ActiveStatuses Claim="claim" />
+                </p>
+            }
+            else
+            {
+                <EditForm Model="claim" OnValidSubmit="HandleValidUpdate">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <ClaimFields Claim="claim" IsEditMode="true" DisableReportedDate="true" />
+
+                    <button type="submit" class="btn btn-primary me-2">@ResourceStrings.ClaimDetail_UpdateButton_SE</button>
+                    <button type="button" class="btn btn-secondary" @onclick="CancelEdit">@ResourceStrings.ConfirmDialog_CancelButton_SE</button>
+                </EditForm>
+            }
+        </div>
+        <div class="card-footer">
+
+            @if (!isEditMode)
+            {
+                <button type="button" class="btn btn-primary me-2" @onclick="EnableEdit">@ResourceStrings.ClaimDetail_EditButton_SE</button>
+            }
+            <button type="button" class="btn btn-danger me-2" @onclick="DeleteClaim">@ResourceStrings.ConfirmDialog_ConfirmButton_SE</button>
+            <button type="button" class="btn btn-secondary" @onclick="GoBack">@ResourceStrings.ClaimList_GoBack_SE</button>
+        </div>
+    </div>
+}
+
+<ConfirmDialog Show="showDeleteConfirm"
+               Title="@ResourceStrings.ConfirmDialog_Title_SE"
+               Message="@ResourceStrings.ConfirmDialog_Message_SE"
+               ConfirmButtonText="@ResourceStrings.ConfirmDialog_ConfirmButton_SE"
+               CancelButtonText="@ResourceStrings.ConfirmDialog_CancelButton_SE"
+               OnConfirm="ConfirmDelete"
+               OnCancel="CancelDelete" />

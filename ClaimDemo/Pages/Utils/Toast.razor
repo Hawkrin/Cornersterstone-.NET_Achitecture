@@ -1,0 +1,41 @@
+﻿@using ClaimDemo.Application.Interfaces
+@using ClaimDemo.Application.Services
+@using ClaimDemo.Domain.Enums
+
+@inject IToastService ToastService
+
+<div class="toast-container">
+    @foreach (var toast in toasts)
+    {
+        <div class="toast-message @GetCssClass(toast.Type)">
+            @toast.Message
+        </div>
+    }
+</div>
+
+@code {
+    private List<ToastMessage> toasts = new();
+
+    protected override void OnInitialized()
+    {
+        ToastService.OnShow += ShowToast;
+    }
+
+    private async Task ShowToast(ToastMessage toast)
+    {
+        toasts.Add(toast);
+        StateHasChanged();
+        await Task.Delay(2000);
+        toasts.Remove(toast);
+        StateHasChanged();
+    }
+
+    private string GetCssClass(ToastType type) => type switch
+    {
+        ToastType.Success => "toast-success",
+        ToastType.Error   => "toast-error",
+        ToastType.Warning => "toast-warning",
+        ToastType.Info    => "toast-info",
+        _ => ""
+    };
+}
