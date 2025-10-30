@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\KOD\\LFTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\createclaim.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\createclaim.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimdetail.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimdetail.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\claimdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\claimdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\infrastructures\\repositories\\inmemoryclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\infrastructures\\repositories\\inmemoryclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\application\\services\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +27,24 @@
       "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\application\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\application\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\application\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimdetail.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimdetail.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\infrastructures\\repositories\\inmemoryclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\infrastructures\\repositories\\inmemoryclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimlist.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\createclaim.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\createclaim.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\pages\\claimdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\pages\\claimdetail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\application\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\application\\interfaces\\iclaimrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\application\\services\\propertyclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,14 +155,6 @@
       "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\domain\\enums\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\claimdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\claimdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|c:\\kod\\lftest\\claimdemo\\application\\services\\vehicleclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84587DB-A38D-872D-9628-2D830FD50CA2}|ClaimDemo\\ClaimDemo.csproj|solutionrelative:claimdemo\\application\\services\\vehicleclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -234,7 +238,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,6 +274,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Extensions.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Extensions.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Extensions.cs",
+              "RelativeToolTip": "ClaimDemo\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T10:07:20.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClaimList.razor.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimList.razor.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor.cs",
+              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimList.razor.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:39:30.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateClaim.razor.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\CreateClaim.razor.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor.cs",
+              "RelativeToolTip": "ClaimDemo\\Pages\\CreateClaim.razor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:36:51.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Services\\ClaimService.cs",
@@ -283,15 +326,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClaimDetail.razor.cs",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor.cs",
-              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimDetail.razor.cs",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor.cs",
-              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimDetail.razor.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwBsAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InMemoryClaimRepository.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
+              "RelativeToolTip": "ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:32:16.988Z",
+              "WhenOpened": "2025-10-27T10:23:17.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Program.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
+              "RelativeToolTip": "ClaimDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T13:39:59.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimDetail.razor",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor",
+              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimDetail.razor",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor",
+              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimDetail.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-23T14:46:30.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaimDemo",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\ClaimDemo.csproj",
+              "RelativeDocumentMoniker": "ClaimDemo\\ClaimDemo.csproj",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\ClaimDemo.csproj",
+              "RelativeToolTip": "ClaimDemo\\ClaimDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T07:15:29.758Z",
               "EditorCaption": ""
             },
             {
@@ -310,6 +392,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ClaimDetail.razor.cs",
+              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor.cs",
+              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimDetail.razor.cs",
+              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor.cs",
+              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimDetail.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:32:16.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IClaimRepository.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Interfaces\\IClaimRepository.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Interfaces\\IClaimRepository.cs",
@@ -322,59 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClaimDetail.razor",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor",
-              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimDetail.razor",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimDetail.razor",
-              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimDetail.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-23T14:46:30.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClaimList.razor.cs",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor.cs",
-              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimList.razor.cs",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor.cs",
-              "RelativeToolTip": "ClaimDemo\\Pages\\ClaimList.razor.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:39:30.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateClaim.razor.cs",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor.cs",
-              "RelativeDocumentMoniker": "ClaimDemo\\Pages\\CreateClaim.razor.cs",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor.cs",
-              "RelativeToolTip": "ClaimDemo\\Pages\\CreateClaim.razor.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wDAAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:36:51.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InMemoryClaimRepository.cs",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
-              "RelativeDocumentMoniker": "ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
-              "RelativeToolTip": "ClaimDemo\\Infrastructures\\Repositories\\InMemoryClaimRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:23:17.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PropertyClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Services\\PropertyClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Services\\PropertyClaimService.cs",
@@ -387,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CreateClaim.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\CreateClaim.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\CreateClaim.razor",
@@ -400,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ClaimList.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\ClaimList.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\ClaimList.razor",
@@ -413,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Index.razor",
@@ -426,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Error.cshtml",
@@ -439,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Toast.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Utils\\Toast.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Utils\\Toast.razor",
@@ -452,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ToastService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Services\\ToastService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Services\\ToastService.cs",
@@ -465,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IToastService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Interfaces\\IToastService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Interfaces\\IToastService.cs",
@@ -478,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "IncidentType.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\IncidentType.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\IncidentType.cs",
@@ -491,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "PropertyDamageType.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\PropertyDamageType.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\PropertyDamageType.cs",
@@ -504,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ToastType.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\ToastType.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\ToastType.cs",
@@ -517,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "TravelClaim.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\TravelClaim.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Models\\TravelClaim.cs",
@@ -530,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "PropertyClaim.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\PropertyClaim.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Models\\PropertyClaim.cs",
@@ -543,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\Claim.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Models\\Claim.cs",
@@ -556,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "VehicleClaim.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Models\\VehicleClaim.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Models\\VehicleClaim.cs",
@@ -569,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "VehicleClaimValidator.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\VehicleClaimValidator.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\VehicleClaimValidator.cs",
@@ -582,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "TravelClaimValidator.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\TravelClaimValidator.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\TravelClaimValidator.cs",
@@ -595,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "PropertyClaimValidator.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\PropertyClaimValidator.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\PropertyClaimValidator.cs",
@@ -608,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ClaimValidator.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\ClaimValidator.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\ClaimValidator.cs",
@@ -621,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "RegistrationNumberFormatAttribute.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\deprecated\\RegistrationNumberFormatAttribute.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\deprecated\\RegistrationNumberFormatAttribute.cs",
@@ -634,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "EndDateValidationAttribute.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\deprecated\\EndDateValidationAttribute.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\deprecated\\EndDateValidationAttribute.cs",
@@ -647,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "DescriptionMinLengthIfNotEmptyAttribute.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\deprecated\\DescriptionMinLengthIfNotEmptyAttribute.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\deprecated\\DescriptionMinLengthIfNotEmptyAttribute.cs",
@@ -660,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "ClaimFields.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Components\\ClaimFields.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Components\\ClaimFields.razor",
@@ -673,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "ConfirmDialog.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Components\\ConfirmDialog.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Components\\ConfirmDialog.razor",
@@ -686,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "ActiveStatuses.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Components\\ActiveStatuses.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Components\\ActiveStatuses.razor",
@@ -699,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "ReportedDateRangeAttribute.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Validation\\deprecated\\ReportedDateRangeAttribute.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Validation\\deprecated\\ReportedDateRangeAttribute.cs",
@@ -712,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Country.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\Country.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\Country.cs",
@@ -725,33 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
-              "RelativeDocumentMoniker": "ClaimDemo\\Program.cs",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\Program.cs",
-              "RelativeToolTip": "ClaimDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T13:39:59.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ClaimDemo",
-              "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\ClaimDemo.csproj",
-              "RelativeDocumentMoniker": "ClaimDemo\\ClaimDemo.csproj",
-              "ToolTip": "C:\\KOD\\LFTest\\ClaimDemo\\ClaimDemo.csproj",
-              "RelativeToolTip": "ClaimDemo\\ClaimDemo.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-30T07:15:29.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "VehicleClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Services\\VehicleClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Services\\VehicleClaimService.cs",
@@ -764,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\KOD\\LFTest\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -777,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "ClaimStatus.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\ClaimStatus.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\ClaimStatus.cs",
@@ -790,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ClaimType.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\ClaimType.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\ClaimType.cs",
@@ -803,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "TravelClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Services\\TravelClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Services\\TravelClaimService.cs",
@@ -816,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "_Host.cshtml",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\_Host.cshtml",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\_Host.cshtml",
@@ -829,7 +846,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "IVehicleClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Interfaces\\IVehicleClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Interfaces\\IVehicleClaimService.cs",
@@ -842,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "ITravelClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Interfaces\\ITravelClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Interfaces\\ITravelClaimService.cs",
@@ -855,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "IPropertyClaimService.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Application\\Interfaces\\IPropertyClaimService.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Application\\Interfaces\\IPropertyClaimService.cs",
@@ -868,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "StatusBox.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Components\\StatusBox.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Components\\StatusBox.razor",
@@ -881,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ErrorMessages.resx",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ErrorMessages.resx",
               "RelativeDocumentMoniker": "ClaimDemo\\Resources\\ErrorMessages.resx",
@@ -894,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Countries.resx",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\Countries.resx",
               "RelativeDocumentMoniker": "ClaimDemo\\Resources\\Countries.resx",
@@ -907,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "site.css",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ClaimDemo\\wwwroot\\css\\site.css",
@@ -920,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ResourceStrings.resx",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Resources\\ResourceStrings.resx",
               "RelativeDocumentMoniker": "ClaimDemo\\Resources\\ResourceStrings.resx",
@@ -933,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "StatusBox.razor.css",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Components\\StatusBox.razor.css",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Components\\StatusBox.razor.css",
@@ -946,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Toast.razor.css",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Pages\\Utils\\Toast.razor.css",
               "RelativeDocumentMoniker": "ClaimDemo\\Pages\\Utils\\Toast.razor.css",
@@ -959,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\App.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\App.razor",
@@ -972,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "ClaimDemo\\Shared\\NavMenu.razor",
@@ -985,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "EnumExtensions.cs",
               "DocumentMoniker": "C:\\KOD\\LFTest\\ClaimDemo\\Domain\\Enums\\Extensions\\EnumExtensions.cs",
               "RelativeDocumentMoniker": "ClaimDemo\\Domain\\Enums\\Extensions\\EnumExtensions.cs",

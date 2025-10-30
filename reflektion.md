@@ -18,7 +18,7 @@ Vi går igenom alla lösningar tillsammans under uppföljningen, men den djupast
 
 _Arv? Composition? Rich models eller anemic? Ge ett konkret exempel och resonera kring trade-offs._
 
-Jag använde arv för att skapa en gemensam basmodell (Claim) och lät specifika skadetyper (VehicleClaim, PropertyClaim, TravelClaim) ärva från denna. Modellerna är relativt "anemiska" – de innehåller främst data och valideringsattribut, medan affärslogik ligger i services. Trade-off: Arv ger enkelhet och gemensamma fält, men kan bli stelt vid komplexa domänregler. Komposition hade gett mer flexibilitet vid t.ex. delade egenskaper mellan skadetyper.
+Jag använde arv för att skapa en gemensam basmodell (Claim) och lät specifika skadetyper (VehicleClaim, PropertyClaim, TravelClaim) ärva från denna. Modellerna är relativt "anemiska" – de innehåller endast data, medan affärslogik ligger i services. Trade-off: Arv ger enkelhet och gemensamma fält, men kan bli stelt vid komplexa domänregler. Komposition hade gett mer flexibilitet vid t.ex. delade egenskaper mellan skadetyper.
 
 ---
 
@@ -114,7 +114,7 @@ _Arkitektur? Approach? Något du lärde dig för sent?_
 
 [ Ditt svar här ]
 
-Jag skulle införa mer komposition, använda en mer generisk lösning för validering såsom FluentValidation elr liknande och eventuellt använda ett mer avancerat state management-bibliotek för UI.
+Jag skulle införa mer komposition, kanske för ett objekt "ClaimDetails" eller liknande och eventuellt använda ett mer avancerat state management-bibliotek för UI.
 
 ---
 

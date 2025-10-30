@@ -1,17 +1,11 @@
-using ClaimDemo.Application.Interfaces;
-using ClaimDemo.Application.Services;
+using ClaimDemo;
 using ClaimDemo.Domain.Validation;
-using ClaimDemo.Infrastructures.Repositories;
 using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddScoped<IClaimService, ClaimService>();
-builder.Services.AddScoped<IVehicleClaimService, VehicleClaimService>();
-builder.Services.AddScoped<IPropertyClaimService, PropertyClaimService>();
-builder.Services.AddScoped<ITravelClaimService, TravelClaimService>();
-builder.Services.AddSingleton<IClaimRepository, InMemoryClaimRepository>();
-builder.Services.AddSingleton<IToastService, ToastService>();
+builder.Services.AddScopedServices();
+builder.Services.AddSingletonServices();
 
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();

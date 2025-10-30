@@ -1,5 +1,4 @@
 ﻿using ClaimDemo.Application.Interfaces;
-using ClaimDemo.Application.Services;
 using ClaimDemo.Domain.Enums;
 using ClaimDemo.Domain.Models;
 using ClaimDemo.Resources;
