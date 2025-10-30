@@ -1,7 +1,7 @@
 ﻿using ClaimDemo.Resources;
 using System.ComponentModel.DataAnnotations;
 
-namespace ClaimDemo.Domain.Validation;
+namespace ClaimDemo.Domain.Validation.deprecated;
 
 public class ReportedDateRangeAttribute : ValidationAttribute
 {

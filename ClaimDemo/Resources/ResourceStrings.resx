@@ -113,6 +113,15 @@
 	<data name="DeleteClaim_SuccessMessage_SE" xml:space="preserve">
 	  <value>Skadeanmälan är borttagen!</value>
 	</data>
+	<data name="CreatedClaim_FailMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan kunde inte skapas.</value>
+	</data>
+	<data name="UpdatedClaim_FailMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan kunde inte uppdateras.</value>
+	</data>
+	<data name="DeleteClaim_FailMessage_SE" xml:space="preserve">
+	  <value>Skadeanmälan kunde inte tas bort.</value>
+	</data>
 	<data name="ErrorMessage_SE" xml:space="preserve">
 	  <value>Ett fel uppstod: {0}</value>
 	</data>

@@ -1,6 +1,8 @@
 using ClaimDemo.Application.Interfaces;
-using ClaimDemo.Infrastructures.Repositories;
 using ClaimDemo.Application.Services;
+using ClaimDemo.Domain.Validation;
+using ClaimDemo.Infrastructures.Repositories;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,8 @@ builder.Services.AddSingleton<IToastService, ToastService>();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+builder.Services.AddValidatorsFromAssemblyContaining<PropertyClaimValidator>();
 
 var app = builder.Build();
 

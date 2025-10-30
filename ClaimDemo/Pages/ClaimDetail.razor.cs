@@ -38,13 +38,13 @@ public partial class ClaimDetail : ComponentBase
         try
         {
             var res = ClaimService.UpdateClaim(claim!);
-            if (res != null)
+            if (res.IsCompletedSuccessfully)
             {
                 await ToastService.ShowSuccess(ResourceStrings.UpdatedClaim_SuccessMessage_SE);
             }
             else
             {
-                await ToastService.ShowError(ResourceStrings.ErrorMessage_SE);
+                await ToastService.ShowError(ResourceStrings.UpdatedClaim_FailMessage_SE);
             }
         }
         catch (Exception)
@@ -56,11 +56,25 @@ public partial class ClaimDetail : ComponentBase
     private async Task ConfirmDelete()
     {
         showDeleteConfirm = false;
-        await ClaimService.DeleteClaim(claim!.Id);
-        Navigation.NavigateTo("/claims/claimsList");
+        var res = await ClaimService.DeleteClaim(claim!.Id);
+        try
+        {
+            if (res.IsSuccess)
+            {
+                Navigation.NavigateTo("/claims/claimsList");
 
-        await ToastService.ShowSuccess(ResourceStrings.DeleteClaim_SuccessMessage_SE);
-        await Task.Delay(2000);
+                await ToastService.ShowSuccess(ResourceStrings.DeleteClaim_SuccessMessage_SE);
+                await Task.Delay(2000);
+            }
+            else
+            {
+                await ToastService.ShowSuccess(ResourceStrings.DeleteClaim_FailMessage_SE);
+            }
+        }
+        catch (Exception)
+        {
+            await ToastService.ShowError(ResourceStrings.ErrorMessage_SE);
+        }
     }
 
     private void CancelDelete() => showDeleteConfirm = false;

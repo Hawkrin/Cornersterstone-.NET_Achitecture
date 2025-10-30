@@ -23,7 +23,7 @@ public partial class CreateClaim : ComponentBase
         try
         {
             var res = await ClaimService.CreateClaim(claim!);
-            if (res != null)
+            if (res.IsSuccess)
             {
                 await ToastService.ShowSuccess(ResourceStrings.CreatedClaim_SuccessMessage_SE);
                 claim = null;
@@ -31,7 +31,7 @@ public partial class CreateClaim : ComponentBase
             }
             else
             {
-                await ToastService.ShowError(ResourceStrings.ErrorMessage_SE);
+                await ToastService.ShowError(ResourceStrings.CreatedClaim_FailMessage_SE);
             }
         }
         catch (Exception)

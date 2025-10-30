@@ -4,6 +4,7 @@
 @using ClaimDemo.Domain.Enums.Extensions
 @using ClaimDemo.Pages.Components
 @using ClaimDemo.Resources
+@using Blazored.FluentValidation
 
 <h3>@ResourceStrings.CreateClaim_SE</h3>
 
@@ -21,7 +22,7 @@
 @if (claim != null)
 {
     <EditForm Model="claim" OnValidSubmit="HandleValidSubmit">
-        <DataAnnotationsValidator />
+           <FluentValidationValidator />
 
         <ClaimFields Claim="claim" IsEditMode="true" />
 

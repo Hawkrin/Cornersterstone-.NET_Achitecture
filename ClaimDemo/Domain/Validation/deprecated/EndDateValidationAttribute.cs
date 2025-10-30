@@ -1,7 +1,7 @@
 ﻿using ClaimDemo.Resources;
 using System.ComponentModel.DataAnnotations;
 
-namespace ClaimDemo.Domain.Validation;
+namespace ClaimDemo.Domain.Validation.deprecated;
 public class EndDateValidationAttribute(string startDatePropertyName, string reportDatePropertyName) : ValidationAttribute
 {
     private readonly string _startDatePropertyName = startDatePropertyName;

@@ -1,14 +1,12 @@
 using ClaimDemo.Domain.Models;
+using FluentResults;
 
 namespace ClaimDemo.Application.Interfaces;
 
 public interface IClaimService
 {
-    Task<Claim> CreateClaim(Claim claim);
-
+    Task<Result<Claim>> CreateClaim(Claim claim);
     Task<IEnumerable<Claim>> GetAllClaims();
-
-    Task UpdateClaim(Claim claim);
-
-    Task DeleteClaim(Guid id);
+    Task<Result> UpdateClaim(Claim claim);
+    Task<Result> DeleteClaim(Guid id);
 }

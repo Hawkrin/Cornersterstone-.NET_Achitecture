@@ -47,3 +47,10 @@ C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\refint\ClaimDemo.dll
 C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ClaimDemo.pdb
 C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ClaimDemo.genruntimeconfig.cache
 C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ref\ClaimDemo.dll
+C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ClaimDemo.csproj.AssemblyReference.cache
+C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ClaimDemo.sourcelink.json
+C:\KOD\LFTest\ClaimDemo\bin\Debug\net9.0\Blazored.FluentValidation.dll
+C:\KOD\LFTest\ClaimDemo\bin\Debug\net9.0\FluentValidation.dll
+C:\KOD\LFTest\ClaimDemo\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\KOD\LFTest\ClaimDemo\obj\Debug\net9.0\ClaimDemo.csproj.Up2Date
+C:\KOD\LFTest\ClaimDemo\bin\Debug\net9.0\FluentResults.dll

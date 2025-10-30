@@ -344,7 +344,7 @@ public enum Country
     [Display(ResourceType = typeof(Countries), Name = "Switzerland_SE")]
     Switzerland,
     [Display(ResourceType = typeof(Countries), Name = "Thailand_SE")]
-    Thailand
+    Thailand,
     [Display(ResourceType = typeof(Countries), Name = "UnitedKingdom_SE")]
     UnitedKingdom,
     [Display(ResourceType = typeof(Countries), Name = "UnitedStates_SE")]

@@ -1,5 +1,6 @@
 ﻿@page "/claimdetail/{id:guid}"
 
+@using Blazored.FluentValidation
 @using ClaimDemo.Domain.Enums.Extensions
 @using ClaimDemo.Pages.Components
 @using ClaimDemo.Resources
@@ -25,8 +26,7 @@ else
             else
             {
                 <EditForm Model="claim" OnValidSubmit="HandleValidUpdate">
-                    <DataAnnotationsValidator />
-                    <ValidationSummary />
+                    <FluentValidationValidator />
 
                     <ClaimFields Claim="claim" IsEditMode="true" DisableReportedDate="true" />
 

@@ -457,11 +457,29 @@ namespace ClaimDemo.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Skadeanmälan kunde inte skapas..
+        /// </summary>
+        public static string CreatedClaim_FailMessage_SE {
+            get {
+                return ResourceManager.GetString("CreatedClaim_FailMessage_SE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Skadeanmälan har skickats!.
         /// </summary>
         public static string CreatedClaim_SuccessMessage_SE {
             get {
                 return ResourceManager.GetString("CreatedClaim_SuccessMessage_SE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skadeanmälan kunde inte tas bort..
+        /// </summary>
+        public static string DeleteClaim_FailMessage_SE {
+            get {
+                return ResourceManager.GetString("DeleteClaim_FailMessage_SE", resourceCulture);
             }
         }
         
@@ -687,6 +705,15 @@ namespace ClaimDemo.Resources {
         public static string StartDateLabel_SE {
             get {
                 return ResourceManager.GetString("StartDateLabel_SE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skadeanmälan kunde inte uppdateras..
+        /// </summary>
+        public static string UpdatedClaim_FailMessage_SE {
+            get {
+                return ResourceManager.GetString("UpdatedClaim_FailMessage_SE", resourceCulture);
             }
         }
         

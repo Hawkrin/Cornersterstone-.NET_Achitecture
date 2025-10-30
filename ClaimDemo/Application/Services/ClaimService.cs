@@ -1,5 +1,6 @@
 using ClaimDemo.Application.Interfaces;
 using ClaimDemo.Domain.Models;
+using FluentResults;
 
 namespace ClaimDemo.Application.Services;
 
@@ -11,7 +12,7 @@ public class ClaimService(
 {
     private readonly IClaimRepository _repository = repository;
 
-    public async Task<Claim> CreateClaim(Claim claim)
+    public async Task<Result<Claim>> CreateClaim(Claim claim)
     {
         claim.Id = Guid.NewGuid();
 
@@ -31,13 +32,13 @@ public class ClaimService(
         return await _repository.Save(claim);
     }
 
-    public async Task DeleteClaim(Guid id)
+    public async Task<Result> DeleteClaim(Guid id)
         => await _repository.DeleteClaim(id);
 
-    public async Task UpdateClaim(Claim claim)
+    public async Task<Result> UpdateClaim(Claim claim)
         => await _repository.UpdateClaim(claim);
 
-    public async Task<IEnumerable<Claim>> GetAllClaims() 
+    public async Task<IEnumerable<Claim>> GetAllClaims()
         => await _repository.GetAll();
 
 }
