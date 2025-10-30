@@ -1,8 +1,8 @@
 # Reflektion: Modulär Skadeanmälningsapplikation
 
-**Namn: Malcolm Liljedahl**  
-**Datum: 25-10-29**  
-**GitHub-repo: https://github.com/Hawkrin/Cornersterstone-.NET_Achitecture**
+**Namn:**  Malcolm Liljedahl
+**Datum:** 25-10-29
+**GitHub-repo:** https://github.com/Hawkrin/Cornersterstone-.NET_Achitecture
 
 ---
 
