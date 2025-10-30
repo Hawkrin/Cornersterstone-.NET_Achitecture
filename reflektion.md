@@ -116,6 +116,9 @@ _Arkitektur? Approach? Något du lärde dig för sent?_
 
 Jag skulle införa mer komposition, kanske för ett objekt "ClaimDetails" eller liknande och eventuellt använda ett mer avancerat state management-bibliotek för UI.
 
+Samt om jag skulle koppla detta till en ASP.NET Core server och det fanns mer tid så skulle jag nog ha flyttat all felhantering såsom try-catch så att dom istället körs i pipelinen istället för att 
+behöva try-catcha alla service anrop separat. Detsamma skulle gälla med min ToastService, då slipper jag anropa show.message varje gång.
+
 ---
 
 ## 6. Testbarhet & Underhållbarhet
